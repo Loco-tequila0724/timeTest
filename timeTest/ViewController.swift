@@ -17,14 +17,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var stopButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var test: UILabel!
-
+    @IBOutlet weak var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         dateData(country: tokyoTime, language: "ja_JP")
         overseas(country: nyTime, lunguage: "en_US", whereTo: "America/New_York")
         overseas(country: germanyTime, lunguage: "fr_GN", whereTo: "Europe/Berlin")
+
+        updateCountLabel()
     }
 
     func dateData(country: UILabel, language: String) {
@@ -73,6 +74,48 @@ class ViewController: UIViewController {
     @objc func Action() {
         timeCount += 1
         watchTime.text = String(timeCount)
+    }
+
+
+
+    private var plusOne:Timer?
+    private var startTimer:Timer?
+    private var count = 0
+
+    private func updateCountLabel() {
+        label.text = String(count)
+    }
+
+    private func stopTimers() {
+        plusOne?.invalidate()
+        startTimer?.invalidate()
+    }
+
+
+    @IBAction func pulsOne(_ sender: Any) {
+        stopTimers()
+        count = 0
+        updateCountLabel()
+
+        plusOne = Timer.scheduledTimer(withTimeInterval: 1, repeats: false, block: {[weak self] _ in
+            self?.count += 1
+            self?.updateCountLabel()
+        } )
+    }
+
+    @IBAction func startButton1(_ sender: Any) {
+        stopTimers()
+        count = 0
+        updateCountLabel()
+
+        startTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {[weak self] _ in
+            self?.count += 1
+            self?.updateCountLabel()
+        })
+
+    }
+    @IBAction func stopButton1(_ sender: Any) {
+        stopTimers()
     }
 
 }

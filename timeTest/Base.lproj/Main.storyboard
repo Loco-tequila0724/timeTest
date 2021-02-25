@@ -132,16 +132,25 @@
                                 <rect key="frame" x="56" y="776" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="スタート"/>
+                                <connections>
+                                    <action selector="startButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QcJ-Gg-L8f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp8-gV-N7K">
                                 <rect key="frame" x="176" y="776" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ストップ"/>
+                                <connections>
+                                    <action selector="stopButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2hX-jI-JrH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCw-6Z-rCW">
                                 <rect key="frame" x="320" y="776" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="＋１"/>
+                                <connections>
+                                    <action selector="pulsOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dix-1V-l4J"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kK-w4-Syt">
                                 <rect key="frame" x="0.0" y="473" width="414" height="34"/>
@@ -167,6 +176,7 @@
                     </view>
                     <connections>
                         <outlet property="germanyTime" destination="r2n-9K-VZR" id="CK3-9C-AAx"/>
+                        <outlet property="label" destination="2kK-w4-Syt" id="Qcp-K2-JF6"/>
                         <outlet property="nyTime" destination="Q3F-zQ-qIC" id="djj-P5-SSe"/>
                         <outlet property="resetButton" destination="yEb-iM-3Be" id="IwZ-VO-D0o"/>
                         <outlet property="startButton" destination="Zh9-Ej-Nrc" id="w0A-sg-Sfh"/>
