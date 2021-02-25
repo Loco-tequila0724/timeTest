@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "time"; ObjectID = "7DD-8Y-0I8"; */
+"7DD-8Y-0I8.text" = "time";
+
+/* Class = "UILabel"; text = "時間"; ObjectID = "AA1-tD-4OP"; */
+"AA1-tD-4OP.text" = "時間";
+
+/* Class = "UILabel"; text = "🇩🇪"; ObjectID = "GPy-WN-GOz"; */
+"GPy-WN-GOz.text" = "🇩🇪";
+
+/* Class = "UILabel"; text = "NY"; ObjectID = "Mlr-Es-JMC"; */
+"Mlr-Es-JMC.text" = "NY";
+
+/* Class = "UILabel"; text = "時間"; ObjectID = "Q3F-zQ-qIC"; */
+"Q3F-zQ-qIC.text" = "時間";
+
+/* Class = "UILabel"; text = "🇯🇵"; ObjectID = "TPm-Je-vOo"; */
+"TPm-Je-vOo.text" = "🇯🇵";
+
+/* Class = "UILabel"; text = "ドイツ"; ObjectID = "V6P-f2-Hr4"; */
+"V6P-f2-Hr4.text" = "ドイツ";
+
+/* Class = "UIButton"; normalTitle = "スタート"; ObjectID = "Zh9-Ej-Nrc"; */
+"Zh9-Ej-Nrc.normalTitle" = "スタート";
+
+/* Class = "UILabel"; text = "東京"; ObjectID = "e0T-Mq-gYx"; */
+"e0T-Mq-gYx.text" = "東京";
+
+/* Class = "UIButton"; normalTitle = "ストップ"; ObjectID = "gi0-DS-Ve9"; */
+"gi0-DS-Ve9.normalTitle" = "ストップ";
+
+/* Class = "UILabel"; text = "時間"; ObjectID = "r2n-9K-VZR"; */
+"r2n-9K-VZR.text" = "時間";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vNB-7O-7vh"; */
+"vNB-7O-7vh.text" = "Label";
+
+/* Class = "UILabel"; text = "🇺🇸"; ObjectID = "wbo-7C-mVk"; */
+"wbo-7C-mVk.text" = "🇺🇸";
+
+/* Class = "UIButton"; normalTitle = "リセット"; ObjectID = "yEb-iM-3Be"; */
+"yEb-iM-3Be.normalTitle" = "リセット";

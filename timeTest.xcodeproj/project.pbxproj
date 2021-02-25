@@ -26,6 +26,8 @@
 		385DAB5725E6046A00BC992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		385DAB6B25E639D300BC992E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		385DAB6C25E639D300BC992E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		385DAB6E25E7064600BC992E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		385DAB6F25E7064600BC992E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				en,
 				Base,
 				ja,
+				de,
 			);
 			mainGroup = 385DAB3D25E6046900BC992E;
 			productRefGroup = 385DAB4725E6046900BC992E /* Products */;
@@ -154,6 +157,7 @@
 			children = (
 				385DAB5025E6046900BC992E /* Base */,
 				385DAB6B25E639D300BC992E /* ja */,
+				385DAB6E25E7064600BC992E /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +167,7 @@
 			children = (
 				385DAB5525E6046A00BC992E /* Base */,
 				385DAB6C25E639D300BC992E /* ja */,
+				385DAB6F25E7064600BC992E /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

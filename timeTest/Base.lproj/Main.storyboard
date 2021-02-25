@@ -98,8 +98,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🇩🇪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPy-WN-GOz">
-                                <rect key="frame" x="10" y="308" width="42" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPy-WN-GOz">
+                                <rect key="frame" x="10" y="308" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <nil key="textColor"/>
@@ -112,8 +112,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNB-7O-7vh">
-                                <rect key="frame" x="63" y="438" width="289" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🇩🇪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmR-b0-Lym">
+                                <rect key="frame" x="12" y="308" width="42" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kK-w4-Syt">
+                                <rect key="frame" x="0.0" y="438" width="414" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -135,19 +142,19 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="a" destination="vNB-7O-7vh" id="23p-35-tEu"/>
                         <outlet property="germanyTime" destination="r2n-9K-VZR" id="CK3-9C-AAx"/>
                         <outlet property="nyTime" destination="Q3F-zQ-qIC" id="djj-P5-SSe"/>
                         <outlet property="resetButton" destination="yEb-iM-3Be" id="IwZ-VO-D0o"/>
                         <outlet property="startButton" destination="Zh9-Ej-Nrc" id="m6g-kS-hjv"/>
                         <outlet property="stopButton" destination="gi0-DS-Ve9" id="paL-3Y-gcd"/>
-                        <outlet property="stopWatch" destination="7DD-8Y-0I8" id="6Cd-76-QE8"/>
+                        <outlet property="test" destination="2kK-w4-Syt" id="bT5-fj-Ten"/>
                         <outlet property="tokyoTime" destination="AA1-tD-4OP" id="wnl-1l-gEv"/>
+                        <outlet property="watchTime" destination="7DD-8Y-0I8" id="UY2-CT-wsI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3328" y="-88"/>
+            <point key="canvasLocation" x="-5063.768115942029" y="-793.52678571428567"/>
         </scene>
     </scenes>
     <resources>
